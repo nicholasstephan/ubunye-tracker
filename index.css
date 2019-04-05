@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-	background-color: #b82e1a;
+	background-color: #12608d;
 }
 
 h2 {
@@ -79,19 +79,18 @@ p a {
 	left: 0;
 	width: 100%;
 	height: 100%;
+	padding: 10%;
 	box-sizing: border-box;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 40px;
 }
 
-#logo svg {
-	fill: white;
+#logo #img {
 	width: 100%;
-	max-width: 700px;
+	height: 100%;
+	background-image: url(assets/logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
-
 #scroll-up {
 	position: relative;
 	color: white;
